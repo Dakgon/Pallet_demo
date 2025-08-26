@@ -1,3 +1,4 @@
 # Not tracking virtual environment directories
 venv/
 new_pallet/
+dataset/  

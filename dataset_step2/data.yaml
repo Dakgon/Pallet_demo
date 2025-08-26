@@ -1,0 +1,9 @@
+path: dataset   # thư mục dataset
+train: train    # thư mục train
+val: val        # thư mục val
+test: test      # có thể bỏ qua nếu không có
+
+names:
+  0: empty_pallet
+  1: loaded_pallet
+  2: nothing
