@@ -56,7 +56,6 @@ def run_basler_inference():
     #connection
     camera = pylon.InstantCamera(pylon.TlFactory.GetInstance().CreateFirstDevice())
     camera.StartGrabbing(pylon.GrabStrategy_LatestImageOnly)
-
     converter = pylon.ImageFormatConverter()
     converter.OutputPixelFormat = pylon.PixelType_BGR8packed
     converter.OutputBitAlignment = pylon.OutputBitAlignment_MsbAligned
